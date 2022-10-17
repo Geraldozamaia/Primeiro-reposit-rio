@@ -1,5 +1,5 @@
 # Primeiro-repositorio
-**Criando  meu primeir repositório
+**Criando  meu primeiro repositório
 
 *editando o readme*
 
