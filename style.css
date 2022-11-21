@@ -1,0 +1,53 @@
+body  {background-color: rgb(43, 61, 226);
+    text-align: center; 
+}
+
+p     { background-color: rgb(60, 243, 23);
+        text-align: center;
+        color:rgb(252, 43, 15);
+}
+
+.teste1 {
+    background-image: linear-gradient (to botton, #4FFFDC, #37CCB0,#3D8577);
+    background-attachment: fixed;
+}
+
+.principal {
+    background: rgb(240, 241, 240);
+    padding: 30px;
+}
+
+
+#Newton {
+    width: 28%;
+}
+
+#ondas {
+    width: 22.35%;
+}
+
+#atomo {
+    width: 20.9%;
+}
+
+
+h1 {
+    color: rgb(243, 227, 3);
+    text-align: left;
+}
+
+h2 {
+    color: rgb(131, 243, 3);
+}
+
+h3 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+h4 {
+    background-color: rgb(242, 248, 246);
+    color:rgb(3, 27, 243)
+}
