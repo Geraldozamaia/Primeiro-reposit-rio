@@ -1,10 +1,14 @@
 body  {background-color: rgb(43, 61, 226);
     text-align: center; 
+    text-decoration: none;
 }
+
+
 
 p     { background-color: rgb(60, 243, 23);
         text-align: center;
         color:rgb(252, 43, 15);
+        text-decoration: none;
 }
 
 .teste1 {
@@ -24,17 +28,53 @@ p     { background-color: rgb(60, 243, 23);
     padding: 30px;
 }
 
-
 #Newton {
     width: 28%;
-}
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        margin: 0 1.5%;
+        padding: 30px 15px;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 10px;
+    }
+
 
 #ondas {
     width: 22.35%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 #atomo {
     width: 20.9%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
 }
 
 
@@ -44,23 +84,57 @@ h1 {
 }
 
 h2 {
+    text-decoration: none;
     color: rgb(131, 243, 3);
 }
 
 h3 {
+    text-decoration: none;
     color: rgb(237, 240, 234);
     text-align: center;
 }
 p2 {
     color: rgb(237, 240, 234);
     text-align: center;
+    text-decoration: none;
 }
 
 h4 {
+    text-decoration: none;
     background-color: rgb(242, 248, 246);
     color:rgb(3, 27, 243)
 }
 
 .produtos li {
     display: inline-block;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 225px;
+	right: 10;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 115px;
+}
+
+nav a {
+		text-transform: uppercase;
+		color: #000000;
+		font-weight: bold;
+		font-size: 22px;
+		text-decoration: none;
+	}
+
+nav a:hover {
+ 	color: #C78C19;
+	text-decoration: underline;
 }
